@@ -8,6 +8,7 @@ class UserManager {
     async criarUsuario(usuario){
         try {
             const dadosUsuarios = await this.leitorUsuariosDoArquivo();
+            console.log(dadosUsuarios)
             dadosUsuarios.push(usuario);
             await this.escreverUsuarios(dadosUsuarios);
         }catch(error) {

@@ -1,0 +1,10 @@
+[]  {
+    "title": "camisa",
+    "description": "uma camisa",
+    "price": 70,
+    "thumbnail": "./lol_img.png",
+    "code": "123",
+    "stock": 12,
+    "id": 1
+  }
+]
