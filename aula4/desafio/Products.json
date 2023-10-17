@@ -1,4 +1,5 @@
-[]  {
+[
+  {
     "title": "camisa",
     "description": "uma camisa",
     "price": 70,
@@ -6,5 +7,23 @@
     "code": "123",
     "stock": 12,
     "id": 1
+  },
+  {
+    "title": "Calça jeans",
+    "description": "Uma calça jeans",
+    "price": 120,
+    "thumbnail": "./calca_jeans_img.png",
+    "code": "456",
+    "stock": 15,
+    "id": 2
+  },
+  {
+    "title": "camisa",
+    "description": "uma camisa",
+    "price": 70,
+    "thumbnail": "./lol_img.png",
+    "code": "123",
+    "stock": 12,
+    "id": 3
   }
 ]
