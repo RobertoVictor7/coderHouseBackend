@@ -7,15 +7,6 @@ class ProductManager {
 
   async getProducts() {
     try {
-      const productsData = await this.readProducts()
-      return productsData
-    } catch (error) {
-      return error
-    }
-  }
-
-  async readProducts() {
-    try {
       const productsFile = fs.readFileSync(this.path, 'utf-8')
       return JSON.parse(productsFile)
     } catch (error) {
@@ -25,6 +16,7 @@ class ProductManager {
       throw error
     }
   }
+
 }
 
 const productManager = new ProductManager()
