@@ -1,0 +1,38 @@
+[
+    {
+      "title": "camisa",
+      "description": "uma camisa",
+      "price": 70,
+      "thumbnail": "./camisa_img.png",
+      "code": "123",
+      "stock": 12,
+      "id": 1
+    },
+    {
+      "title": "Calça jeans",
+      "description": "Uma calça jeans",
+      "price": 120,
+      "thumbnail": "./calca_jeans_img.png",
+      "code": "456",
+      "stock": 15,
+      "id": 2
+    },
+    {
+      "title": "shorts",
+      "description": "um shorts",
+      "price": 50,
+      "thumbnail": "./shorts_img.png",
+      "code": "789",
+      "stock": 10,
+      "id": 3
+    },
+    {
+      "title": "meia",
+      "description": "uma meia",
+      "price": 20,
+      "thumbnail": "./meia_img.png",
+      "code": "321",
+      "stock": 25,
+      "id": 4
+    }
+]
